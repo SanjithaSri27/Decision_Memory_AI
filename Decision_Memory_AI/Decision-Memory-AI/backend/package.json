@@ -1,0 +1,23 @@
+{
+  "name": "decision-memory-ai-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Decision Memory AI - autonomous GitLab AI agent that captures engineering decisions.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "mock": "node src/run_mock_api.js",
+    "test": "node src/test_http.js",
+    "test:local": "node src/test_local.js",
+    "test:apis": "node src/test_apis.js",
+    "recreate-db": "node src/recreate_db.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  }
+}

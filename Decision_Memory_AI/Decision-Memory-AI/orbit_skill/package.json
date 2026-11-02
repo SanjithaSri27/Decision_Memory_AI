@@ -1,0 +1,14 @@
+{
+  "name": "decision-memory-orbit-skill",
+  "version": "1.0.0",
+  "description": "Orbit Skill MCP server for Decision Memory AI",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "axios": "^1.7.9"
+  }
+}
